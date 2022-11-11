@@ -1,0 +1,23 @@
+{
+  "name": "3ra-entrega-de-tp-final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tomylm/2daEntregaTPF.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tomylm/2daEntregaTPF/issues"
+  },
+  "homepage": "https://github.com/Tomylm/2daEntregaTPF#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
