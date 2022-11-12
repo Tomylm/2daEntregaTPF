@@ -47,7 +47,7 @@ h1 {
   font-weight: 800;
   font-display: swap;
   font-size: 285%;
-  color: rgb(255, 255, 255);
+  color: whitesmoke;
   text-align: center;
   margin: 2cm;
 }
@@ -55,7 +55,7 @@ h1 {
 /*parrafos*/
 p {
   position: relative;
-  color: rgb(255, 255, 255);
+  color: whitesmoke;
   font-family: "Exo", sans-serif;
   font-size: 170%;
   letter-spacing: 1px;

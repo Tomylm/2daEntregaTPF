@@ -1,3 +1,5 @@
+@import '../base/lists';
+
 /*titulo de descripciones de foto/video*/
 h1 {
     position: relative;
@@ -6,7 +8,7 @@ h1 {
     font-weight: 800;
     font-display: swap;
     font-size: 285%;
-    color: rgb(255, 255, 255);
+    color: nth($colores, 3);
     text-align: center;
     margin: 2cm;
 }
@@ -14,7 +16,7 @@ h1 {
 /*parrafos*/
 p {
     position: relative;
-    color: rgb(255, 255, 255);
+    color: nth($colores, 3);
     font-family: 'Exo', sans-serif;
     font-size: 170%;
     letter-spacing: 1px;
