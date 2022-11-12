@@ -7,29 +7,6 @@
 @import 'base/extends';
 @import 'base/mixins';
 
-/*titulo de descripciones de foto/video*/
-h1 {
-    position: relative;
-    font-family: 'Exo', sans-serif;
-    font-style: italic;
-    font-weight: 800;
-    font-display: swap;
-    font-size: 285%;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    margin: 2cm;
-}
-
-/*parrafos*/
-p {
-    position: relative;
-    color: rgb(255, 255, 255);
-    font-family: 'Exo', sans-serif;
-    font-size: 170%;
-    letter-spacing: 1px;
-    text-align: center;
-}
-
 .container {
     padding-top: 50px;
 }
