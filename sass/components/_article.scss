@@ -1,3 +1,6 @@
+@import '../base/lists';
+
+
 .container {
     padding-top: 50px;
 }
@@ -46,30 +49,30 @@
 /* lista de viajes */
 table.tabla {
     width: 100%;
-    background-color: rgb(67, 143, 118);
+    background-color: nth($colores, 2);
     border-collapse: collapse;
     border-width: 2px;
-    border-color: aquamarine;
+    border-color: nth($colores, 1);
     border-style: solid;
-    color: whitesmoke;
+    color: nth($colores, 3);
 }
 
 th {
-    font-family: Verdana; font-weight: bold; color:#38061f;
+    font-family: Verdana; font-weight: bold; color: nth($colores, 4);
 }
 
 td {
-    font-family: Verdana; color: whitesmoke;
+    font-family: Verdana; color: nth($colores, 3);
 }
 table.tabla td, table.tabla th {
     border-width: 2px;
-    border-color: aquamarine;
+    border-color: nth($colores, 1);
     border-style: solid;
     padding: 5px;
 }
 
 table.tabla thead {
-    background-color: aquamarine;
+    background-color: nth($colores, 1);
 }
 
 
