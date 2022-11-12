@@ -1,7 +1,9 @@
+@import '../base/lists';
+
 /* FOOTER */
 form {
     font-family: 'Raleway', sans-serif;
-    color: rgb(0, 0, 0);
+    color: nth($colores, 5);
     font-size: 110%;
     width: 30%;
     display: inline;
@@ -11,18 +13,18 @@ form {
 
 form input {
     font-size: 90%;
-    color: rgb(67, 143, 118);
+    color: nth($colores, 2);
 }
 
 footer {
     margin-top: 30px;
     padding: 50px;
-    background-color: darkgray;
+    background-color: nth($colores, 6);
     display: flex;
     justify-content: space-around;
 }
 #backtop {
-    border: 4px double rgba(127, 255, 212, 0.598);
+    border: 4px double nth($colores, 7);
     padding: 4px;
 }
 
