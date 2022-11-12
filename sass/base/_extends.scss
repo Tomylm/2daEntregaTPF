@@ -1,0 +1,17 @@
+@import '../base/lists';
+
+
+%table {
+    border-width: 2px;
+    border-color: nth($colores, 1);
+    border-style: solid;
+}
+
+%contactimg {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+}
