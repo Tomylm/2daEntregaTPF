@@ -20,3 +20,30 @@ p {
     letter-spacing: 1px;
     text-align: center;
 }
+
+/* mapa hostel en iphone */
+@media only screen and (max-width: 500px) {
+    #mapahostel {
+        width: 100%;
+    }
+    p {
+        font-size: 90%;
+    }
+    h3 {
+        margin: 0px 0px 0px 8px;
+    }
+    #inicio {
+        width: auto;
+    }
+    /* contactos */
+    .flex-items a img {
+        width: 80%;
+        padding-top: 50px;
+      }
+    .hoyplaylist {
+        top: 10px;
+    }
+    .cr-me {
+        width: 100%;
+    }
+}
