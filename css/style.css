@@ -137,12 +137,12 @@ p {
 /* lista de viajes */
 table.tabla {
   width: 100%;
-  background-color: rgba(82, 167, 139, 0.779);
+  background-color: rgb(67, 143, 118);
   border-collapse: collapse;
   border-width: 2px;
   border-color: aquamarine;
   border-style: solid;
-  color: #ebebeb;
+  color: whitesmoke;
 }
 
 th {
