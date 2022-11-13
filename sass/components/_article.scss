@@ -51,9 +51,7 @@ table.tabla {
     width: 100%;
     background-color: nth($colores, 2);
     border-collapse: collapse;
-    border-width: 2px;
-    border-color: nth($colores, 1);
-    border-style: solid;
+    @extend %table;    
     color: nth($colores, 3);
 }
 
@@ -65,10 +63,8 @@ td {
     font-family: Verdana; color: nth($colores, 3);
 }
 table.tabla td, table.tabla th {
-    border-width: 2px;
-    border-color: nth($colores, 1);
-    border-style: solid;
-    padding: 5px;
+  @extend %table;    
+  padding: 5px;
 }
 
 table.tabla thead {
